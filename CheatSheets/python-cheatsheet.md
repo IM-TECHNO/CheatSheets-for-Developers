@@ -55,8 +55,9 @@
   - [7.12. PyGame](#pygame)
   - [7.13. Pandas](#pandas)
   - [7.14 Matplotlib](#matplotlib)
+  - [7.15 PyautoGUI](#PyautoGUI)
 
-## Main
+## Main  
 
 ```python
 if __name__ == '__main__':     # Runs main() if file wasn't imported.
@@ -2646,6 +2647,19 @@ if __name__ == '__main__':
 **[🔼Back to Top](#table-of-contents)**
 
 # Libraries
+
+## PyautoGUI
+```python
+# $pip3 install pyautogui
+>>> import pyautogui
+>>> pyautogui.position()  # current mouse x and y
+(968, 56)
+>>> pyautogui.size()  # current screen resolution width and height
+(1920, 1080)
+>>> pyautogui.onScreen(x, y)  # True if x & y are within the screen.
+True
+
+**[🔼Back to Top](#table-of-contents)**
 
 ## Progress Bar
 
